@@ -1,0 +1,5 @@
+# dsh-vault — bundle patch layer.
+# Installed with: dsh plugin add <this-repo-or-local-path>
+- insert:
+    - id: dsh-vault
+      name: dsh-vault
