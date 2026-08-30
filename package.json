@@ -23,6 +23,14 @@
     "vault",
     "settings"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njjpro/dsh-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/njjpro/dsh-vault/issues"
+  },
+  "homepage": "https://github.com/njjpro/dsh-vault#readme",
   "license": "MIT",
   "dsh": {
     "bundle": {

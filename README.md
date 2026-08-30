@@ -4,6 +4,8 @@
 
 在 **设置 → 凭据** 板块用一张可折叠的列表集中管理常用凭据：API Token、服务器登录、网站账号、GitHub PAT……每类填一次，之后所有会话都能直接取用。机密字段存入 DSH 凭据库（不落明文、界面不回显），非机密字段存入 settings。
 
+![设置 → 凭据](docs/screenshot.png)
+
 ## 功能
 
 - **一个面板管理所有凭据**：列表式条目，可折叠/展开，收起时显示「已配置 n/m」摘要
@@ -23,12 +25,10 @@
 ## 安装
 
 ```sh
-dsh plugin add <本仓库 URL 或本地路径>
-```
+# 从 GitHub 安装
+dsh plugin add https://github.com/njjpro/dsh-vault
 
-本地开发安装示例：
-
-```sh
+# 或本地路径安装
 dsh plugin add file:./dsh-vault
 ```
 
