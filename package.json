@@ -1,6 +1,6 @@
 {
   "name": "dsh-vault",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Persistent credential vault for DeepSeek Harness (DSH): manage API tokens, server logins, and site credentials in one settings panel. Secrets live in the DSH credential store and are consumed by the model via vault_status / vault_get tools.",
   "type": "module",
   "main": "lib/index.js",
